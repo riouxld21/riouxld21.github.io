@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<title>Damien Rioux-Lavoie</title>
+
+	<!-- My Style CSS -->
+	<link rel="stylesheet" href="https://riouxld21.github.io/research/style.css"/>
+
+	<!-- Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+		integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css"
+		integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+	<!-- Navigation bar -->
+	<nav class="navbar navbar-expand-lg navbar-light" id="navbar-main">
+		<a class="navbar-brand" href="https://riouxld21.github.io/research">Damien Rioux-Lavoie</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
+			aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbar-content">
+			<ul class="navbar-nav ml-auto"">
+				<li class=" active nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research" data-target="#hero">
+					<span>Home</span>
+				</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://riouxld21.github.io/research/cv" data-target="#cv">
+						<span>Resume</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://riouxld21.github.io/research/publication" data-target="#publications">
+						<span>Publications</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://riouxld21.github.io/research/project" data-target="#projects">
+						<span>Projects</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Main page -->
+	<main class="content">
+		
+<section id="publication">
+	<div class="container">
+		<div class="article-container">
+			<div class="row justify-content-center">
+				<div class="section-heading">
+					<h1>Delayed Rejection Metropolis Light Transport</h1>
+				</div>
+			</div>
+
+			<div class="row justify-content-center"><div class="col-sm-6 col-md-4 pub-authors-list">
+						<div class="row justify-content-center"><a href="https:&#x2F;&#x2F;riouxld21.github.io&#x2F;research&#x2F;">Damien Rioux-Lavoie*</a></div>
+						<div class="row justify-content-center">
+							<i><center>McGill University</center></i>
+						</div>
+					</div><div class="col-sm-6 col-md-4 pub-authors-list">
+						<div class="row justify-content-center"><a href="https:&#x2F;&#x2F;joeylitalien.github.io">Joey Litalien*</a></div>
+						<div class="row justify-content-center">
+							<i><center>McGill University</center></i>
+						</div>
+					</div><div class="col-sm-6 col-md-4 pub-authors-list">
+						<div class="row justify-content-center"><a href="https:&#x2F;&#x2F;beltegeuse.github.io&#x2F;research&#x2F;">Adrien Gruson</a></div>
+						<div class="row justify-content-center">
+							<i><center>McGill University</center></i>
+						</div>
+					</div><div class="col-sm-6 col-md-4 pub-authors-list">
+						<div class="row justify-content-center"><a href="https:&#x2F;&#x2F;www.ci.i.u-tokyo.ac.jp&#x2F;~hachisuka&#x2F;">Toshiya Hachisuka</a></div>
+						<div class="row justify-content-center">
+							<i><center>The University of Tokyo</center></i>
+						</div>
+					</div><div class="col-sm-6 col-md-4 pub-authors-list">
+						<div class="row justify-content-center"><a href="http:&#x2F;&#x2F;www.cim.mcgill.ca&#x2F;~derek&#x2F;">Derek Nowrouzezahrai</a></div>
+						<div class="row justify-content-center">
+							<i><center>McGill University</center></i>
+						</div>
+					</div></div><div class="row justify-content-center pub-first">
+					<p>*<em>Joint first authors</em></p>
+ 
+				</div><div class="row  justify-content-center pub-publication">
+				In ACM Transactions on Graphics ( Presented at SIGGRAPH ), 2020
+			</div>
+
+
+			<div class="row">
+				<div class="pub-img">
+					<div class="col">
+						<img class="pub-img" src="https://riouxld21.github.io/research/publication/drmlt.png" class="pub-banner"></img>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class=" col section-heading">
+					<h2>Abstract</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="pub-abstract">
+					<div class="col">
+						Designing robust mutation strategies for primary sample space Metropolis light transport is a challenging problem: poorly-tuned mutations both hinder state space exploration and introduce structured image artifacts. Scenes with complex materials, lighting and geometry make hand-designing strategies that remain optimal over the entire state space infeasible. Moreover, these difficult regions are often sparse in state space, and so relying exclusively on intricate---and often expensive---proposal mechanisms can be wasteful where simpler inexpensive mechanisms are more sample efficient. <br> We generalize Metropolis--Hastings light transport to employ a flexible two-stage mutation strategy based on delayed rejection Markov chain Monte Carlo. Our approach generates multiple proposals based on the failure of previous ones, all while preserving Markov chain ergodicity. This allows us to reduce error while maintaining fast global exploration and low correlation across chains. Direct application of delayed rejection to light transport leads to low acceptance probabilities, and so we also propose a novel transition kernel to alleviate this issue. We benchmark our approach on several applications including <em>bold-then-timid</em> and  <em>cheap-then-expensive</em> proposals across different light transport algorithms. Our method is applicable to any primary sample space algorithm with minimal implementation effort, producing consistently better results on a variety of challenging scenes.
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="pub-links">
+					<div class="col">
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="row">
+				<div class=" col section-heading">
+					<h2>Links</h2>
+				</div>
+			</div>
+				
+
+				
+				<div class="row">
+					<div class=" col section-heading">
+						<h3>Paper</h3>
+					</div>
+				</div>
+				<ul class="fa-ul pub-abstract">
+					
+					<li>
+						<span class="fa-li">
+							<i class="fas fa-file-pdf"></i>
+						</span>
+						<a href=http:&#x2F;&#x2F;beltegeuse.s3-website-ap-northeast-1.amazonaws.com&#x2F;research&#x2F;2020_DRMLT.pdf>Author's version</a>
+					</li>
+					
+					
+					<li><span class="fa-li"><i class="fas fa-atlas"></i></span>
+						<a href="https:&#x2F;&#x2F;doi.org&#x2F;10.1145&#x2F;3388538">Publisher's official version</a>
+					</li>
+					
+					
+				</ul>
+				
+
+				
+				<div class="row">
+					<div class=" col section-heading">
+						<h3>Code & Data</h3>
+					</div>
+				</div>
+				<ul class="fa-ul pub-abstract">
+					<li>
+						<span class="fa-li">
+							<i class="fab fa-github"></i>
+						</span>
+						
+						<a href=https:&#x2F;&#x2F;github.com&#x2F;joeylitalien&#x2F;drmlt>Public repository</a>
+						
+					</li>
+				</ul>
+				
+
+				
+					
+					<div class="row">
+						<div class=" col section-heading">
+							<h3>Supplementals</h3>
+						</div>
+					</div>
+					<ul class="fa-ul pub-abstract">
+						<li>
+							<span class="fa-li">
+								<i class="fas fa-folder-plus"></i>
+							</span>
+							<a href=http:&#x2F;&#x2F;beltegeuse.s3-website-ap-northeast-1.amazonaws.com&#x2F;research&#x2F;2020_DRMLT&#x2F;>Web interactive comparison</a>
+						</li>
+					</ul>	
+					
+					
+
+					
+						<div class="row">
+							<div class=" col section-heading">
+								<h3>Video</h3>
+							</div>
+						</div>
+			
+						<div class="row">
+							<div class=" col" >
+								<iframe width="650" height="365" src=https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;m22d-cTcubc frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</div>
+					
+			
+
+			
+			<div class="row">
+				<div class=" col section-heading">
+					<h2>Cite</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class=" col" >
+					
+					<pre class="bibtex-box">
+<code id="bibtex">@article{Rioux-Lavoie:2020:DRMLT,
+    author = {Rioux-Lavoie, Damien and Litalien, Joey and Gruson, Adrien and Hachisuka, Toshiya and Nowrouzezahrai, Derek},
+    title = {Delayed Rejection {Metropolis} Light Transport},
+    journal = {ACM Transactions on Graphics},
+    volume = {39},
+    number = {3},
+    year = {2020},
+    month = apr,
+    doi = {10.1145/3388538},
+}</code>
+<div class="btn-clipboard" id="clipboard-copy" data-clipboard-target="#bibtex" data-text-swap="Copied!">
+<i class="far fa-copy"></i> Copy to clipboard
+</div>
+					</pre>  
+				</div>
+			</div>
+			
+			
+
+			
+		</div>
+	</div>
+</section>
+
+	</main>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+	
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+<script type="text/javascript">
+  $(".btn-clipboard").on("click", function() {
+    var el = $(this);
+    if (el.text() == el.data("text-swap")) {
+      el.text(el.data("text-original")); 
+    } else {
+      el.empty();
+      el.append('<i class="fas fa-check"></i> ' + el.data("text-swap")); 
+      el.text(el.data("text-original")).delay(1);
+    }
+  });
+
+  var clipboard = new ClipboardJS('#clipboard-copy');
+
+  clipboard.on('success', function(e) {
+    console.log(e);
+  });
+
+  clipboard.on('error', function(e) {
+    console.log(e);
+  });
+</script>
+
+</body>
+
+</html>
