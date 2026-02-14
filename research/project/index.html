@@ -1,63 +1,65 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<title>Damien Rioux-Lavoie</title>
 
-	<!-- My Style CSS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Roboto+Mono&display=swap">
 	<link rel="stylesheet" href="https://riouxld21.github.io/research/style.css"/>
 
-	<!-- Icons -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
-		integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css"
-		integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous"/>
-
+	
 </head>
 
 <body>
 	<!-- Navigation bar -->
-	<nav class="navbar navbar-expand-lg navbar-dark" id="navbar-main">
+	<nav class="navbar" id="navbar-main">
 		<a class="navbar-brand" href="https://riouxld21.github.io/research">Damien Rioux-Lavoie</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
-			aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+		<button class="navbar-toggler" type="button" aria-label="Toggle navigation"
+			onclick="document.getElementById('navbar-content').classList.toggle('open')">
+			
+
+<svg class="icon " viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+
+
 		</button>
-		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbar-content">
-			<ul class="navbar-nav ml-auto"">
-				<li class=" active nav-item">
-				<a class="nav-link" href="https://riouxld21.github.io/research" data-target="#hero">
+		<ul class="navbar-nav" id="navbar-content">
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research">
 					<span>Home</span>
 				</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/research/cv" data-target="#cv">
-						<span>Resume</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/research/publication" data-target="#publications">
-						<span>Publications</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/research/project" data-target="#projects">
-						<span>Projects</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/researchpapers/" data-target="#papers">
-						<span>Research Hub</span>
-					</a>
-				</li>
-			</ul>
-		</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/cv">
+					<span>Resume</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/publication">
+					<span>Publications</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="https://riouxld21.github.io/research/project">
+					<span>Projects</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/blog">
+					<span>Blog</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/papers">
+					<span>Research Hub</span>
+				</a>
+			</li>
+		</ul>
 	</nav>
+	<noscript><style>.navbar-nav { display: flex !important; }</style></noscript>
 
 	<!-- Main page -->
 	<main class="content">
@@ -69,7 +71,11 @@
 		<div class="articles-container">
 			<div class="row">
 				<div class=" col section-heading">
-					<h1><i class="fas fa-code" style="margin-right: 0.5em;"></i> Projects</h1>
+					<h1>
+
+<svg class="icon " viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
+
+ Projects</h1>
 				</div>
 			</div>
 			<div class="row">
@@ -79,176 +85,141 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-12 align-self-center">
-					<div class="accordion" id="accordionShader">
-						
-						
-						<div class="card">
-							<div class="card-header" id="headingstSXzm">
-
-									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#stSXzm" aria-expanded="true" aria-controls="stSXzm">
-										<h3>
-											2D Spectral Ray Tracer
-										</h3>
-									</button>
+				<div class="col">
+					
+					<details class="project-card" open>
+						<summary><h3>2D Spectral Ray Tracer</h3></summary>
+						<div class="project-body">
+							<div class="oth-shader-embed">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;stSXzm" target="_blank" rel="noopener">
+									<img src="https://riouxld21.github.io/research/project/2D_Spectral_Ray_Tracer.png" alt="2D Spectral Ray Tracer" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
+								</a>
 							</div>
-							<div id="stSXzm" class="collapse show" aria-labelledby="headingstSXzm" data-parent="accordionShader">
-								<div class="card-body">
-									<div class="oth-shader-embed">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;stSXzm" target="_blank" rel="noopener">
-											<img src="https://riouxld21.github.io/research/project/2D_Spectral_Ray_Tracer.png" alt="2D Spectral Ray Tracer" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
-										</a>
-									</div>
-									<div class="oth-shader-description">
-										<p>Vaguely inspired by an afternoon of listening to the dark side of the moon album by Pink Floyd. However, circle are easier to intersect with than prism. You can reset the temporal accumulation by pressing SPACEBAR and move light with a LEFT-CLICK from the mouse.</p>
+							<div class="oth-shader-description">
+								<p>Vaguely inspired by an afternoon of listening to the dark side of the moon album by Pink Floyd. However, circle are easier to intersect with than prism. You can reset the temporal accumulation by pressing SPACEBAR and move light with a LEFT-CLICK from the mouse.</p>
 
-									</div>
-									<div style="margin-top: 8px;">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;stSXzm" target="_blank" rel="noopener" class="btn btn-primary btn-outline btn-sm">
-											<i class="fas fa-external-link-alt" style="margin-right: 4px;"></i> View on Shadertoy
-										</a>
-									</div>
-								</div>
+							</div>
+							<div style="margin-top: 8px;">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;stSXzm" target="_blank" rel="noopener" class="btn btn-sm">
+									
+
+<svg class="icon " viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+
+ View on Shadertoy
+								</a>
 							</div>
 						</div>
-						
-						<div class="card">
-							<div class="card-header" id="headingXlsfWM">
-
-									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#XlsfWM" aria-expanded="true" aria-controls="XlsfWM">
-										<h3>
-											Rayleigh-Benard Convection
-										</h3>
-									</button>
+					</details>
+					
+					<details class="project-card" open>
+						<summary><h3>Rayleigh-Benard Convection</h3></summary>
+						<div class="project-body">
+							<div class="oth-shader-embed">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XlsfWM" target="_blank" rel="noopener">
+									<img src="https://riouxld21.github.io/research/project/Rayleigh_Benard_Convection.png" alt="Rayleigh-Benard Convection" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
+								</a>
 							</div>
-							<div id="XlsfWM" class="collapse show" aria-labelledby="headingXlsfWM" data-parent="accordionShader">
-								<div class="card-body">
-									<div class="oth-shader-embed">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XlsfWM" target="_blank" rel="noopener">
-											<img src="https://riouxld21.github.io/research/project/Rayleigh_Benard_Convection.png" alt="Rayleigh-Benard Convection" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
-										</a>
-									</div>
-									<div class="oth-shader-description">
-										<p>Buoyancy-driven simulation of a ﬂuid heated from below and cooled from above. Hot is red and cold is blue. Press <em>LEFT CLICK</em> to add heat sources, <em>C</em> to toogle between hot and cold <em>SPACEBAR</em> reset keep sources, <em>1</em> to show the velocity magnitude, <em>2</em> to show the pressure field, <em>3</em> to show the divergence and <em>4</em> to show the vorticity field.</p>
+							<div class="oth-shader-description">
+								<p>Buoyancy-driven simulation of a ﬂuid heated from below and cooled from above. Hot is red and cold is blue. Press <em>LEFT CLICK</em> to add heat sources, <em>C</em> to toogle between hot and cold <em>SPACEBAR</em> reset keep sources, <em>1</em> to show the velocity magnitude, <em>2</em> to show the pressure field, <em>3</em> to show the divergence and <em>4</em> to show the vorticity field.</p>
 
-									</div>
-									<div style="margin-top: 8px;">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XlsfWM" target="_blank" rel="noopener" class="btn btn-primary btn-outline btn-sm">
-											<i class="fas fa-external-link-alt" style="margin-right: 4px;"></i> View on Shadertoy
-										</a>
-									</div>
-								</div>
+							</div>
+							<div style="margin-top: 8px;">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XlsfWM" target="_blank" rel="noopener" class="btn btn-sm">
+									
+
+<svg class="icon " viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+
+ View on Shadertoy
+								</a>
 							</div>
 						</div>
-						
-						<div class="card">
-							<div class="card-header" id="headingMljcW1">
-
-									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#MljcW1" aria-expanded="true" aria-controls="MljcW1">
-										<h3>
-											Gray Scott Model Explorer
-										</h3>
-									</button>
+					</details>
+					
+					<details class="project-card" open>
+						<summary><h3>Gray Scott Model Explorer</h3></summary>
+						<div class="project-body">
+							<div class="oth-shader-embed">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;MljcW1" target="_blank" rel="noopener">
+									<img src="https://riouxld21.github.io/research/project/Gray_Scott_Model_Explorer.png" alt="Gray Scott Model Explorer" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
+								</a>
 							</div>
-							<div id="MljcW1" class="collapse show" aria-labelledby="headingMljcW1" data-parent="accordionShader">
-								<div class="card-body">
-									<div class="oth-shader-embed">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;MljcW1" target="_blank" rel="noopener">
-											<img src="https://riouxld21.github.io/research/project/Gray_Scott_Model_Explorer.png" alt="Gray Scott Model Explorer" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
-										</a>
-									</div>
-									<div class="oth-shader-description">
-										<p>Gray-Scott reaction diffusion simulation. Press <em>LEFT CLICK</em> on the screen to choose which behavior you want to simulate. Then, press <em>LEFT CLICK</em> again to add perturbation to the simulation.</p>
+							<div class="oth-shader-description">
+								<p>Gray-Scott reaction diffusion simulation. Press <em>LEFT CLICK</em> on the screen to choose which behavior you want to simulate. Then, press <em>LEFT CLICK</em> again to add perturbation to the simulation.</p>
 
-									</div>
-									<div style="margin-top: 8px;">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;MljcW1" target="_blank" rel="noopener" class="btn btn-primary btn-outline btn-sm">
-											<i class="fas fa-external-link-alt" style="margin-right: 4px;"></i> View on Shadertoy
-										</a>
-									</div>
-								</div>
+							</div>
+							<div style="margin-top: 8px;">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;MljcW1" target="_blank" rel="noopener" class="btn btn-sm">
+									
+
+<svg class="icon " viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+
+ View on Shadertoy
+								</a>
 							</div>
 						</div>
-						
-						<div class="card">
-							<div class="card-header" id="headingXlSyzw">
-
-									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#XlSyzw" aria-expanded="true" aria-controls="XlSyzw">
-										<h3>
-											Pastel Cornell Box
-										</h3>
-									</button>
+					</details>
+					
+					<details class="project-card" open>
+						<summary><h3>Pastel Cornell Box</h3></summary>
+						<div class="project-body">
+							<div class="oth-shader-embed">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XlSyzw" target="_blank" rel="noopener">
+									<img src="https://riouxld21.github.io/research/project/Pastel_Cornell_Box.png" alt="Pastel Cornell Box" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
+								</a>
 							</div>
-							<div id="XlSyzw" class="collapse show" aria-labelledby="headingXlSyzw" data-parent="accordionShader">
-								<div class="card-body">
-									<div class="oth-shader-embed">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XlSyzw" target="_blank" rel="noopener">
-											<img src="https://riouxld21.github.io/research/project/Pastel_Cornell_Box.png" alt="Pastel Cornell Box" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
-										</a>
-									</div>
-									<div class="oth-shader-description">
-										<p>Ray marching algorithm.</p>
+							<div class="oth-shader-description">
+								<p>Ray marching algorithm.</p>
 
-									</div>
-									<div style="margin-top: 8px;">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XlSyzw" target="_blank" rel="noopener" class="btn btn-primary btn-outline btn-sm">
-											<i class="fas fa-external-link-alt" style="margin-right: 4px;"></i> View on Shadertoy
-										</a>
-									</div>
-								</div>
+							</div>
+							<div style="margin-top: 8px;">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XlSyzw" target="_blank" rel="noopener" class="btn btn-sm">
+									
+
+<svg class="icon " viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+
+ View on Shadertoy
+								</a>
 							</div>
 						</div>
-						
-						<div class="card">
-							<div class="card-header" id="headingXtfBRN">
-
-									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#XtfBRN" aria-expanded="true" aria-controls="XtfBRN">
-										<h3>
-											Fluid Sandbox
-										</h3>
-									</button>
+					</details>
+					
+					<details class="project-card" open>
+						<summary><h3>Fluid Sandbox</h3></summary>
+						<div class="project-body">
+							<div class="oth-shader-embed">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XtfBRN" target="_blank" rel="noopener">
+									<img src="https://riouxld21.github.io/research/project/Fluid_Sandbox.png" alt="Fluid Sandbox" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
+								</a>
 							</div>
-							<div id="XtfBRN" class="collapse show" aria-labelledby="headingXtfBRN" data-parent="accordionShader">
-								<div class="card-body">
-									<div class="oth-shader-embed">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XtfBRN" target="_blank" rel="noopener">
-											<img src="https://riouxld21.github.io/research/project/Fluid_Sandbox.png" alt="Fluid Sandbox" style="width:100%; max-width:640px; border-radius:6px; display:block; margin:0 auto;">
-										</a>
-									</div>
-									<div class="oth-shader-description">
-										<p>Density advection over a fluid simulation. Add obstacles with <em>LEFT CLICK</em>, reset fluid by pressing <em>SPACEBAR</em>, <em>1</em> to show the velocity magnitude, <em>2</em> to show the pressure field, <em>3</em> to show the divergence and <em>4</em> to show the vorticity field</p>
+							<div class="oth-shader-description">
+								<p>Density advection over a fluid simulation. Add obstacles with <em>LEFT CLICK</em>, reset fluid by pressing <em>SPACEBAR</em>, <em>1</em> to show the velocity magnitude, <em>2</em> to show the pressure field, <em>3</em> to show the divergence and <em>4</em> to show the vorticity field</p>
 
-									</div>
-									<div style="margin-top: 8px;">
-										<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XtfBRN" target="_blank" rel="noopener" class="btn btn-primary btn-outline btn-sm">
-											<i class="fas fa-external-link-alt" style="margin-right: 4px;"></i> View on Shadertoy
-										</a>
-									</div>
-								</div>
+							</div>
+							<div style="margin-top: 8px;">
+								<a href="https:&#x2F;&#x2F;www.shadertoy.com&#x2F;view&#x2F;XtfBRN" target="_blank" rel="noopener" class="btn btn-sm">
+									
+
+<svg class="icon " viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+
+ View on Shadertoy
+								</a>
 							</div>
 						</div>
-						
-					</div>
+					</details>
+					
 				</div>
 			</div>
 		</div>
 	</div>
-</section> 
+</section>
+
 	</main>
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-	</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-	</script>
+
+	<footer style="text-align:center; padding:2rem; color:var(--muted); font-size:0.8rem;">
+		&copy; 2026 Damien Rioux-Lavoie
+	</footer>
+
 	
-	
-	<!-- To include additional script -->
 	
 </body>
 

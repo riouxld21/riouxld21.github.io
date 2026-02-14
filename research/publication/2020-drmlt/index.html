@@ -1,63 +1,65 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<title>Damien Rioux-Lavoie</title>
 
-	<!-- My Style CSS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Roboto+Mono&display=swap">
 	<link rel="stylesheet" href="https://riouxld21.github.io/research/style.css"/>
 
-	<!-- Icons -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
-		integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css"
-		integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous"/>
-
+	
 </head>
 
 <body>
 	<!-- Navigation bar -->
-	<nav class="navbar navbar-expand-lg navbar-dark" id="navbar-main">
+	<nav class="navbar" id="navbar-main">
 		<a class="navbar-brand" href="https://riouxld21.github.io/research">Damien Rioux-Lavoie</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
-			aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+		<button class="navbar-toggler" type="button" aria-label="Toggle navigation"
+			onclick="document.getElementById('navbar-content').classList.toggle('open')">
+			
+
+<svg class="icon " viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+
+
 		</button>
-		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbar-content">
-			<ul class="navbar-nav ml-auto"">
-				<li class=" active nav-item">
-				<a class="nav-link" href="https://riouxld21.github.io/research" data-target="#hero">
+		<ul class="navbar-nav" id="navbar-content">
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research">
 					<span>Home</span>
 				</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/research/cv" data-target="#cv">
-						<span>Resume</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/research/publication" data-target="#publications">
-						<span>Publications</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/research/project" data-target="#projects">
-						<span>Projects</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/researchpapers/" data-target="#papers">
-						<span>Research Hub</span>
-					</a>
-				</li>
-			</ul>
-		</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/cv">
+					<span>Resume</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="https://riouxld21.github.io/research/publication">
+					<span>Publications</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/project">
+					<span>Projects</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/blog">
+					<span>Blog</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/papers">
+					<span>Research Hub</span>
+				</a>
+			</li>
+		</ul>
 	</nav>
+	<noscript><style>.navbar-nav { display: flex !important; }</style></noscript>
 
 	<!-- Main page -->
 	<main class="content">
@@ -98,11 +100,10 @@
 						</div>
 					</div></div><div class="row justify-content-center pub-first">
 					<p>*<em>Joint first authors</em></p>
- 
+
 				</div><div class="row  justify-content-center pub-publication">
 				In ACM Transactions on Graphics ( Presented at SIGGRAPH ), 2020
 			</div>
-
 
 			<div class="row">
 				<div class="pub-img">
@@ -150,13 +151,21 @@
 					
 					<li>
 						<span class="fa-li">
-							<i class="fas fa-file-pdf"></i>
+							
+
+<svg class="icon " viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V304H176c-35.3 0-64 28.7-64 64V512H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zM176 352h32c30.9 0 56 25.1 56 56s-25.1 56-56 56h-16v32c0 8.8-7.2 16-16 16s-16-7.2-16-16V368c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24h-16v48h16zm96-80h32c26.5 0 48 21.5 48 48v64c0 26.5-21.5 48-48 48h-32c-8.8 0-16-7.2-16-16V368c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16v-64c0-8.8-7.2-16-16-16h-16v96h16zm80-112c0-8.8 7.2-16 16-16h48c8.8 0 16 7.2 16 16s-7.2 16-16 16h-32v32h32c8.8 0 16 7.2 16 16s-7.2 16-16 16h-32v48c0 8.8-7.2 16-16 16s-16-7.2-16-16V368z"/></svg>
+
+
 						</span>
 						<a href=https:&#x2F;&#x2F;riouxld21.github.io&#x2F;research&#x2F;publication&#x2F;DRMLT.pdf>Author's version</a>
 					</li>
 					
 					
-					<li><span class="fa-li"><i class="fas fa-atlas"></i></span>
+					<li><span class="fa-li">
+
+<svg class="icon " viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+
+</span>
 						<a href="https:&#x2F;&#x2F;doi.org&#x2F;10.1145&#x2F;3388538">Publisher's official version</a>
 					</li>
 					
@@ -175,11 +184,15 @@
 					<ul class="fa-ul pub-abstract">
 						<li>
 							<span class="fa-li">
-								<i class="fas fa-folder-plus"></i>
+								
+
+<svg class="icon " viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M512 416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96C0 60.7 28.7 32 64 32H192c20.1 0 39.1 9.5 51.2 25.6l19.2 25.6c6 8.1 15.5 12.8 25.6 12.8H448c35.3 0 64 28.7 64 64V416zM232 376c0 13.3 10.7 24 24 24s24-10.7 24-24V312h64c13.3 0 24-10.7 24-24s-10.7-24-24-24H280V200c0-13.3-10.7-24-24-24s-24 10.7-24 24v64H168c-13.3 0-24 10.7-24 24s10.7 24 24 24h64v64z"/></svg>
+
+
 							</span>
 							<a href=http:&#x2F;&#x2F;beltegeuse.s3-website-ap-northeast-1.amazonaws.com&#x2F;research&#x2F;2020_DRMLT&#x2F;>Web interactive comparison</a>
 						</li>
-					</ul>	
+					</ul>
 					
 				
 
@@ -190,7 +203,7 @@
 							<h3>Video</h3>
 						</div>
 					</div>
-		
+
 					<div class="row">
 						<div class=" col" >
 							<iframe width="650" height="365" src=https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;m22d-cTcubc frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -200,7 +213,7 @@
 
 				
 
-				
+
 				
 					
 						<div class="row">
@@ -211,7 +224,11 @@
 						<ul class="fa-ul pub-abstract">
 							<li>
 								<span class="fa-li">
-									<i class="fab fa-github"></i>
+									
+
+<svg class="icon " viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.8-14.1-112.8-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.3-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+
 								</span>
 								
 								<a href=https:&#x2F;&#x2F;github.com&#x2F;joeylitalien&#x2F;drmlt>Public repository</a>
@@ -234,7 +251,7 @@
 
 			<div class="row">
 				<div class=" col" >
-					
+
 					<pre class="bibtex-box">
 <code id="bibtex">@article{Rioux-Lavoie:2020:DRMLT,
     author = {Rioux-Lavoie, Damien and Litalien, Joey and Gruson, Adrien and Hachisuka, Toshiya and Nowrouzezahrai, Derek},
@@ -246,14 +263,16 @@
     month = apr,
     doi = {10.1145/3388538},
 }</code>
-<div class="btn-clipboard" id="clipboard-copy" data-clipboard-target="#bibtex" data-text-swap="Copied!">
-<i class="far fa-copy"></i> Copy to clipboard
-</div>
-					</pre>  
+<button class="btn-clipboard" id="clipboard-copy">
+
+<svg class="icon " viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M208 0H332.1c12.7 0 24.9 5.1 33.9 14.1l67.9 67.9c9 9 14.1 21.2 14.1 33.9V336c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V48c0-26.5 21.5-48 48-48zM48 128h80v64H64V448H256V416h64v48c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V176c0-26.5 21.5-48 48-48z"/></svg>
+
+ Copy to clipboard</button>
+					</pre>
 				</div>
 			</div>
 			
-			
+
 
 			
 		</div>
@@ -261,41 +280,23 @@
 </section>
 
 	</main>
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-	</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-	</script>
+
+	<footer style="text-align:center; padding:2rem; color:var(--muted); font-size:0.8rem;">
+		&copy; 2026 Damien Rioux-Lavoie
+	</footer>
+
 	
-	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
-<script type="text/javascript">
-  $(".btn-clipboard").on("click", function() {
-    var el = $(this);
-    if (el.text() == el.data("text-swap")) {
-      el.text(el.data("text-original")); 
-    } else {
-      el.empty();
-      el.append('<i class="fas fa-check"></i> ' + el.data("text-swap")); 
-      el.text(el.data("text-original")).delay(1);
-    }
+<script>
+const btn = document.getElementById('clipboard-copy');
+if (btn) {
+  const orig = btn.innerHTML;
+  btn.addEventListener('click', function() {
+    navigator.clipboard.writeText(document.getElementById('bibtex').textContent).then(function() {
+      btn.innerHTML = '&#10003; Copied!';
+      setTimeout(function() { btn.innerHTML = orig; }, 2000);
+    });
   });
-
-  var clipboard = new ClipboardJS('#clipboard-copy');
-
-  clipboard.on('success', function(e) {
-    console.log(e);
-  });
-
-  clipboard.on('error', function(e) {
-    console.log(e);
-  });
+}
 </script>
 
 </body>

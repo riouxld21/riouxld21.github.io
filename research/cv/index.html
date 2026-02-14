@@ -1,63 +1,65 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<title>Damien Rioux-Lavoie</title>
 
-	<!-- My Style CSS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Roboto+Mono&display=swap">
 	<link rel="stylesheet" href="https://riouxld21.github.io/research/style.css"/>
 
-	<!-- Icons -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
-		integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css"
-		integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous"/>
-
+	
 </head>
 
 <body>
 	<!-- Navigation bar -->
-	<nav class="navbar navbar-expand-lg navbar-dark" id="navbar-main">
+	<nav class="navbar" id="navbar-main">
 		<a class="navbar-brand" href="https://riouxld21.github.io/research">Damien Rioux-Lavoie</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
-			aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+		<button class="navbar-toggler" type="button" aria-label="Toggle navigation"
+			onclick="document.getElementById('navbar-content').classList.toggle('open')">
+			
+
+<svg class="icon " viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+
+
 		</button>
-		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbar-content">
-			<ul class="navbar-nav ml-auto"">
-				<li class=" active nav-item">
-				<a class="nav-link" href="https://riouxld21.github.io/research" data-target="#hero">
+		<ul class="navbar-nav" id="navbar-content">
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research">
 					<span>Home</span>
 				</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/research/cv" data-target="#cv">
-						<span>Resume</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/research/publication" data-target="#publications">
-						<span>Publications</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/research/project" data-target="#projects">
-						<span>Projects</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://riouxld21.github.io/researchpapers/" data-target="#papers">
-						<span>Research Hub</span>
-					</a>
-				</li>
-			</ul>
-		</div>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="https://riouxld21.github.io/research/cv">
+					<span>Resume</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/publication">
+					<span>Publications</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/project">
+					<span>Projects</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/blog">
+					<span>Blog</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://riouxld21.github.io/research/papers">
+					<span>Research Hub</span>
+				</a>
+			</li>
+		</ul>
 	</nav>
+	<noscript><style>.navbar-nav { display: flex !important; }</style></noscript>
 
 	<!-- Main page -->
 	<main class="content">
@@ -69,7 +71,11 @@
 		<div class="cv">
 			<div class="row">
 				<div class=" col section-heading">
-					<h1><i class="fas fa-address-card" style="margin-right: 0.5em;"></i> Resume</h1>
+					<h1>
+
+<svg class="icon " viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 192a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm-16 144c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16zM312 176h144c8.8 0 16 7.2 16 16s-7.2 16-16 16H312c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h144c8.8 0 16 7.2 16 16s-7.2 16-16 16H312c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h144c8.8 0 16 7.2 16 16s-7.2 16-16 16H312c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+
+ Resume</h1>
 				</div>
 			</div>
 
@@ -181,16 +187,16 @@
 
 
 			<div class="row cv"><div class="col-2 sep">
-					May 2020 <br> to  May 2023 
+					May 2020 <br> to  May 2023
 				</div>
 				<div class="col-10 no-rpadding">
-					NSERC Postgraduate Scholarship (PGS D) — Doctoral — $63,000 
+					NSERC Postgraduate Scholarship (PGS D) — Doctoral — $63,000
 				</div>
 				<div class="col-2 sep">
-					Jan 2018 <br> to  Jan 2021 
+					Jan 2018 <br> to  Jan 2021
 				</div>
 				<div class="col-10 no-rpadding">
-					McGill Engineering Doctoral Awards (MEDA) — Domestic — $72,000 
+					McGill Engineering Doctoral Awards (MEDA) — Domestic — $72,000
 				</div>
 				
 			</div>
@@ -293,13 +299,16 @@
 						<li>
 							<b>Monte Carlo Methods for Fluid Simulation</b>
 						</li>
-						<li>Damien Rioux-Lavoie
-							<!-- <strong>Damien Rioux-Lavoie</strong> --></li>
+						<li>Damien Rioux-Lavoie</li>
 						<li>
 							<i>SIGGRAPH Asia</i>
 						</li>
-						<li><a class="btn btn-primary btn-outline btn-sm" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=uylCHCX8B4E" target="_blank"
-								rel="noopener"><i class="fab fa-youtube"></i> Video</a></li>
+						<li><a class="btn btn-sm" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=uylCHCX8B4E" target="_blank"
+								rel="noopener">
+
+<svg class="icon " viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+
+ Video</a></li>
 						<br>
 					</ul>
 
@@ -314,14 +323,16 @@
 							<b>Delayed Rejection Metropolis Light Transport</b>
 						</li>
 						<li>Damien Rioux-Lavoie
-							<!-- <strong>Damien Rioux-Lavoie</strong> -->
-							and Joey Litalien
-							<!-- Joey Litalien --></li>
+							and Joey Litalien</li>
 						<li>
 							<i>SIGGRAPH</i>
 						</li>
-						<li><a class="btn btn-primary btn-outline btn-sm" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=m22d-cTcubc" target="_blank"
-								rel="noopener"><i class="fab fa-youtube"></i> Video</a></li>
+						<li><a class="btn btn-sm" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=m22d-cTcubc" target="_blank"
+								rel="noopener">
+
+<svg class="icon " viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+
+ Video</a></li>
 						<br>
 					</ul>
 
@@ -335,11 +346,8 @@
 						<li>
 							<b>Adaptive MCMC in Rendering</b>
 						</li>
-						<li>Damien Rioux-Lavoie
-							<!-- <strong>Damien Rioux-Lavoie</strong> -->, Joey Litalien
-							<!-- Joey Litalien -->
-							and Nicolas Vibert
-							<!-- Nicolas Vibert --></li>
+						<li>Damien Rioux-Lavoie, Joey Litalien
+							and Nicolas Vibert</li>
 						<li>
 							<i>Toronto-Montreal Graphics Symposium</i>
 						</li>
@@ -361,7 +369,7 @@
 						<li>
 							<i>Seminaire des etudiants en mathematiques</i>
 						</li>
-						<li><a class="btn btn-primary btn-outline btn-sm" href="master_presentation.pdf" target="_blank"
+						<li><a class="btn btn-sm" href="master_presentation.pdf" target="_blank"
 								rel="noopener">PDF</a></li>
 						<br>
 					</ul>
@@ -380,7 +388,7 @@
 						<li>
 							<i>10th Annual Ottawa Mathematics Conference</i>
 						</li>
-						<li><a class="btn btn-primary btn-outline btn-sm" href="FDE_Penalty.pdf" target="_blank"
+						<li><a class="btn btn-sm" href="FDE_Penalty.pdf" target="_blank"
 								rel="noopener">PDF</a></li>
 						<br>
 					</ul>
@@ -399,7 +407,7 @@
 						<li>
 							<i>Seminaire des etudiants en mathematiques</i>
 						</li>
-						<li><a class="btn btn-primary btn-outline btn-sm" href="FDE_Tautochrone.pdf" target="_blank"
+						<li><a class="btn btn-sm" href="FDE_Tautochrone.pdf" target="_blank"
 								rel="noopener">PDF</a></li>
 						<br>
 					</ul>
@@ -462,20 +470,12 @@
 	</div>
 </section> 
 	</main>
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-	</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-	</script>
+
+	<footer style="text-align:center; padding:2rem; color:var(--muted); font-size:0.8rem;">
+		&copy; 2026 Damien Rioux-Lavoie
+	</footer>
+
 	
-	
-	<!-- To include additional script -->
 	
 </body>
 
