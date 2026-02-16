@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting...</title>
+<script>
+var path = location.pathname;
+var qs = location.search + location.hash;
+if (path.match(/^\/research(\/|$)/)) {
+  var dest = path.replace(/^\/research\/?/, '/');
+  location.replace('https://riouxld.xyz' + dest + qs);
+} else if (path.match(/^\/publications?(\/|$)/)) {
+  var dest = path.replace(/^\/publications?\/?/, '/');
+  location.replace('https://riouxld.xyz/publication' + dest + qs);
+}
+</script>
+</head>
+<body>
+<p>If you are not redirected, visit <a href="https://riouxld.xyz/">riouxld.xyz</a>.</p>
+</body>
+</html>
